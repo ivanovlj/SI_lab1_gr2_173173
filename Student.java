@@ -1,17 +1,13 @@
+import java.io.*;
+import java.util.*;
 class Student {
-	String index;
-	String firstName;
-	String lastName;
 
-	//TODO constructor
+	List<Integer>grades=new ArrayList<>();
 
-	//TODO seters & getters
 
-	public double getAverage() {
-		//TODO
+	public List<Integer> getGrades() {
+		return grades;
 	}
 
-	public int ECTSCredits() {
-		//TODO
-	}
+
 }
